@@ -1,0 +1,39 @@
+{
+  "name": "lagden-calculadora",
+  "version": "0.1.0",
+  "description": "Apenas um show",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "xo",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagden/calculadora.git"
+  },
+  "keywords": [
+    "workshop",
+    "calculadora"
+  ],
+  "author": "Thiago Lagden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lagden/calculadora/issues"
+  },
+  "homepage": "https://github.com/lagden/calculadora#readme",
+  "devDependencies": {
+    "ava": "0.16.0",
+    "xo": "0.17.0"
+  },
+  "xo": {
+    "envs": [
+      "node"
+    ],
+    "semicolon": false
+  },
+  "files": [
+    "modules",
+    "LICENSE",
+    "README.md"
+  ]
+}
