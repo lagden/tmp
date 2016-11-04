@@ -4,7 +4,13 @@ import test from 'ava'
 import divisao from '../modules/divisao'
 import soma from '../modules/soma'
 import subtracao from '../modules/subtracao'
+import multiplica from '../modules/multiplica'
 import calculadora from '../.'
+
+test('multiplica', t => {
+	const total = multiplica(10, 5)
+	t.is(total, 50)
+})
 
 test('divisao', t => {
 	const total = divisao(10, 5)
